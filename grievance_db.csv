@@ -1,0 +1,10 @@
+ticket,complaint,department,priority,status
+GRV-760161,No power supply in our village for 3 days,Water,🔴 HIGH PRIORITY (Immediate Action Required),Submitted
+GRV-847796,No power supply in our village for 3 days,Water,🔴 HIGH PRIORITY (Immediate Action Required),Submitted
+GRV-366466,"No power supply in our village for 3 days
+",Electricity,🔴 HIGH PRIORITY (Immediate Action Required),Submitted
+GRV-925108,"No water supply in our village for 3 days
+",Water,🟢 LOW PRIORITY (Normal Case),Submitted
+GRV-854768,"No water supply in our village for 3 days
+",Water,🟢 LOW PRIORITY (Normal Case),Submitted
+GRV-623371,water,Water,🟢 LOW PRIORITY (Normal Case),Submitted

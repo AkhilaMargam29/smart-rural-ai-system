@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: url('https://img.freepik.com/free-photo/farmland-field-with-growing-crops-sunset_181624-27539.jpg') no-repeat center center fixed;
+            background-size: cover;
+            font-family: "Segoe UI", Arial;
+        }
+
+        .overlay {
+            background: rgba(255, 255, 255, 0.70);
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+        }
+
+        .box {
+            width: 400px;
+            margin: 130px auto;
+            padding: 30px;
+            background: rgba(255,255,255,0.9);
+            border-radius: 12px;
+            text-align: center;
+            box-shadow: 0 0 15px rgba(0,0,0,0.25);
+            position: relative;
+            z-index: 2;
+        }
+
+        input {
+            width: 90%;
+            padding: 12px;
+            margin: 10px 0;
+            border-radius: 8px;
+            border: 1px solid #7fbf7f;
+            font-size: 15px;
+        }
+
+        .btn-container {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 10px;
+        }
+
+        .login-btn {
+            background: #43A047;
+            color: white;
+            padding: 12px 28px;
+            border-radius: 6px;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        .signup-btn {
+            background: #1B5E20;
+            color: white;
+            padding: 12px 28px;
+            border-radius: 6px;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        .login-btn:hover, .signup-btn:hover {
+            opacity: 0.85;
+        }
+
+        h2 {
+            color: #1B5E20;
+            font-weight: 600;
+        }
+    </style>
+</head>
+
+<body>
+<div class="overlay"></div>
+
+<div class="box">
+    <h2>Login</h2>
+
+    <form action="/home" method="POST">
+        <input type="email" placeholder="Email" required>
+        <input type="password" placeholder="Password" required>
+
+        <div class="btn-container">
+            <button type="submit" class="login-btn">Login</button>
+            <a href="/"><button type="button" class="signup-btn">Signup</button></a>
+        </div>
+    </form>
+</div>
+
+</body>
+</html>

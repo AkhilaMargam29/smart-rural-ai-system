@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home | Smart Rural AI</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: url('https://img.freepik.com/free-photo/sunny-rural-landscape-with-green-fields-blue-sky_181624-16393.jpg') no-repeat center center fixed;
+            background-size: cover;
+            font-family: 'Segoe UI', Arial;
+        }
+
+        .overlay {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background: rgba(255,255,255,0.6);
+        }
+
+        h1 {
+            margin-top: 40px;
+            text-align: center;
+            font-size: 40px;
+            color: #1B5E20;
+            position: relative;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 25px;
+            padding: 50px;
+            position: relative;
+        }
+
+        .card {
+            background: rgba(255,255,255,0.9);
+            padding: 25px;
+            border-radius: 12px;
+            text-align: center;
+            box-shadow: 0 0 12px rgba(0,0,0,0.15);
+            transition: transform 0.25s ease, box-shadow 0.25s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 12px 18px rgba(0,0,0,0.25);
+        }
+
+        .card img {
+            width: 70px;
+            height: 70px;
+        }
+
+        .btn {
+            margin-top: 15px;
+            padding: 10px 20px;
+            background: #2E7D32;
+            color: white;
+            text-decoration: none;
+            border-radius: 6px;
+            display: inline-block;
+        }
+
+        .btn:hover {
+            opacity: 0.85;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="overlay"></div>
+
+<h1>🌾 Smart Rural AI Dashboard</h1>
+
+<div class="grid">
+
+    <div class="card">
+        <img src="https://cdn-icons-png.flaticon.com/512/2904/2904978.png">
+        <h3>Crop Recommendation</h3>
+        <a class="btn" href="/open/crop">Open</a>
+    </div>
+
+    <div class="card">
+        <img src="https://cdn-icons-png.flaticon.com/512/619/619034.png">
+        <h3>Pest Detection</h3>
+        <a class="btn" href="/open/pest">Open</a>
+    </div>
+
+    <div class="card">
+        <img src="https://cdn-icons-png.flaticon.com/512/4151/4151022.png">
+        <h3>Water Forecast</h3>
+        <a class="btn" href="/open/water">Open</a>
+    </div>
+
+    <div class="card">
+        <img src="https://cdn-icons-png.flaticon.com/512/3208/3208750.png">
+        <h3>Market Prediction</h3>
+        <a class="btn" href="/open/market">Open</a>
+    </div>
+
+    <div class="card">
+        <img src="https://cdn-icons-png.flaticon.com/512/4712/4712035.png">
+        <h3>AI Chatbot</h3>
+        <a class="btn" href="/open/chatbot">Open</a>
+    </div>
+
+    <div class="card">
+        <img src="https://cdn-icons-png.flaticon.com/512/3203/3203071.png">
+        <h3>Grievance System</h3>
+        <a class="btn" href="/open/grievance">Open</a>
+    </div>
+
+</div>
+
+</body>
+</html>
